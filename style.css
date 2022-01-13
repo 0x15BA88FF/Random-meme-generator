@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  transition: 0.1s;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: #222;
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+a{
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+span{
+  color: white;
+  margin-right: 15px;
+}
+span:hover{
+  color: violet;
+  margin-right: 15px;
+}
+#card{
+  width: 400px;
+  min-height: 500px;
+  height: max-content;
+  border-radius: 6px;
+  background-color: #444;
+  padding-top: 10px;
+  padding-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#memeImage{
+  margin-left: auto;
+  margin-right: auto;
+  width: 380px;
+  height: 400px;
+  border-radius: 0px;
+  background-color: #fff;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#memeInfo{
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#author{
+  color: white;
+}
+@media (max-width: 400px){
+  #card{
+    width: 90%;
+  }
+  #memeImage{
+    width: 90%;
+  }
+}
