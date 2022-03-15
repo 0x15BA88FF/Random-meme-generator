@@ -2,7 +2,9 @@
 
 [![powered-by-PDe-C.png](https://i.postimg.cc/TwtnTtkG/powered-by-PDe-C.png)](https://postimg.cc/zbRyjFZP)
 
-[![rmgpv.png](https://i.postimg.cc/J0ftK635/rmgpv.png)](https://postimg.cc/xNP01P4X)
+[![rmgpv.png](https://i.postimg.cc/J0ftK635/rmgpv.png)](https://pascall-random-meme-generator.netlify.app)
+
+Website @[netlify randomMemeGenerator](https://pascall-random-meme-generator.netlify.app)
 
 ### LYOAO with the best reddit memes for the bored otakus out there :).
 
