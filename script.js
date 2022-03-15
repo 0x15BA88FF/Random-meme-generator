@@ -7,6 +7,9 @@ function loadMeme(){
   fetch('https://meme-api.herokuapp.com/gimme')
       .then(jsonData => jsonData.json())
       .then(data => response(data))
+      .catch((err) => {
+        alert('Hmmm... Looks like There was an error :/')
+      })
 
   let response = (data) => {
     console.log(data)
